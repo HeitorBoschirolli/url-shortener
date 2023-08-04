@@ -19,7 +19,7 @@ on:
 
 env:
   AZURE_FUNCTIONAPP_NAME: 'UrlShortener01'
-  AZURE_FUNCTIONAPP_PACKAGE_PATH: './publish'
+  AZURE_FUNCTIONAPP_PACKAGE_PATH: '.'
   DOTNET_VERSION: '6.0.x'
 jobs:
   build-and-deploy:
